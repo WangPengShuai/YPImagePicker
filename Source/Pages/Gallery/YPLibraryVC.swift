@@ -154,6 +154,7 @@ public class YPLibraryVC: UIViewController, YPPermissionCheckable {
                                        scrollViewZoomScale: v.assetZoomableView!.zoomScale,
                                        assetIdentifier: asset.localIdentifier)
                 ]
+                 selection.removeAll()
             }
         } else {
             selection.removeAll()
